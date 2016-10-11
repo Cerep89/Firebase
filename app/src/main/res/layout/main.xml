@@ -10,19 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.viorel.firebase.MainActivity">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="11dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="17dp">
 
-
-    </LinearLayout>
 
     <EditText
         android:layout_width="wrap_content"
@@ -39,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
+        android:hint="@string/pass_text"
         android:ems="10"
         android:layout_below="@+id/textEmail"
         android:layout_alignLeft="@+id/textEmail"
@@ -47,7 +36,7 @@
         android:id="@+id/textpass" />
 
     <Button
-        android:text="Login"
+        android:text="@string/login_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
@@ -67,14 +56,12 @@
         android:gravity="center_horizontal" />
 
     <TextView
-        android:text="Inregistreaza-te"
+        android:text="@string/inregistreazate_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textRegister"
+        android:layout_alignBaseline="@+id/button2"
         android:layout_alignBottom="@+id/button2"
         android:layout_alignRight="@+id/textpass"
-        android:layout_alignEnd="@+id/textpass"
-        android:layout_marginRight="23dp"
-        android:layout_marginEnd="23dp"
-        android:layout_marginBottom="11dp"
-        android:id="@+id/textRegister" />
+        android:layout_alignEnd="@+id/textpass" />
 </RelativeLayout>
