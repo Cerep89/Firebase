@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1043770457253",
+    "firebase_url": "https://myfirebaseapp-31c84.firebaseio.com",
+    "project_id": "myfirebaseapp-31c84",
+    "storage_bucket": "myfirebaseapp-31c84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043770457253:android:b76a64cd546120c4",
+        "android_client_info": {
+          "package_name": "com.example.viorel.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043770457253-457pt1nn4me5q4algtt1s6pvaoslj17p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1x6lmjPh4MYQyLjNHjsFfkqAIVrHDTvM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
