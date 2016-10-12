@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
-        android:id="@+id/button2"
+        android:id="@+id/buttonLogare"
         android:layout_below="@+id/textpass"
         android:layout_alignLeft="@+id/textpass"
         android:layout_alignStart="@+id/textpass" />
@@ -60,8 +60,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textRegister"
-        android:layout_alignBaseline="@+id/button2"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_alignRight="@+id/textpass"
-        android:layout_alignEnd="@+id/textpass" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignBaseline="@+id/buttonLogare"
+        android:layout_alignBottom="@+id/buttonLogare"
+        android:layout_toRightOf="@+id/buttonLogare"
+        android:layout_toEndOf="@+id/buttonLogare" />
 </RelativeLayout>
